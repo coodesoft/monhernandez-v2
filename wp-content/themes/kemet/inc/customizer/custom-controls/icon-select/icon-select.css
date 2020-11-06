@@ -1,0 +1,39 @@
+.customize-control-kmt-icon-select .icon-select 
+{ 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-flex-wrap: wrap; 
+  flex-wrap: wrap; 
+  max-height: 216px; 
+}
+.customize-control-kmt-icon-select .icon-select label { 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex; 
+  width: 33.33%; 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+.customize-control-kmt-icon-select .icon-select .icon-select-input { 
+  display: none; 
+}
+.customize-control-kmt-icon-select .icon-select .icon-select-label { 
+  display: block; 
+  width: 100%; 
+  background-color: #fff; 
+  color: #cccccc; 
+  border: 1px solid #f1f1f1; 
+  margin: 0; 
+  padding: 5px; 
+  text-align: center; 
+  }
+.customize-control-kmt-icon-select .icon-select .icon-select-label:hover,
+.customize-control-kmt-icon-select .icon-select .icon-select-input:checked + .icon-select-label { 
+  color: #1e8cbe; 
+  border-color: #f1f1f1; 
+}
+.customize-control-kmt-icon-select .icon-select.rtl{
+      flex-direction: row-reverse;
+}

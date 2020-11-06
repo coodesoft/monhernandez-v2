@@ -1,0 +1,457 @@
+/*
+ Theme Name:   Kemet Child
+ Theme URI:    http://example.com/kemet-child/
+ Description:  Kemet Child Theme
+ Author:       Coodesoft
+ Author URI:   http://example.com
+ Template:     kemet
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  kemetchild
+*/
+@import "./css/buttons.css";
+@import "./css/fonts.css";
+@import "./css/icons.css";
+@import "./css/heights.css";
+
+/*ESTILOS GENERALES*/
+/*Ancho maximo*/
+.m-width {
+    max-width: 1200px;
+}
+
+/*Colores fondo*/
+.bg-purple {
+    background-color: #4c4084 !important;
+}
+
+.bg-cyan {
+    background-color: #64ccc9 !important;
+}
+
+.bg-red {
+    background-color: #e56a54 !important;
+}
+
+.bg-yellow {
+    background-color: #f0b323 !important;
+}
+
+/*Paddings y Margins*/
+.nopadding {
+    padding: 0 !important;
+}
+
+.no-top-padding {
+    padding-top: 0 !important;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+/*Display*/
+.hidden-element {
+    display: none;
+}
+
+.visible-element {
+    display: block;
+    animation: fadeIn 1s;
+}
+
+/*Puntero mouse y seleccion de textos*/
+.pointable {
+    cursor: pointer;
+}
+
+/*Ocultar eventos de puntero*/
+.unpointable img {
+    pointer-events: none;
+}
+
+.unselectable {
+    user-select: none;
+}
+
+.decoration-none span {
+    text-decoration: none !important;
+}
+
+/*Impide evento de agarre en carousel*/
+.ungrabable * {
+    cursor: default;
+    pointer-events: none;
+}
+
+/*Imagen posicionada arriba*/
+.swiper-image-top .elementor-carousel-image {
+    background-position: 50% 0%;
+}
+
+/*Vertical scroll*/
+.vertical-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #4c4084 #bebebe;
+}
+
+/*Oculta navegacion de post-templates*/
+.post-navigation {
+    display: none !important;
+}
+
+/*Reglas Anchor y Botones*/
+.nopadding-a a {
+    padding: 0 0 !important;
+}
+
+.no-bottom-padding-a a {
+    padding-bottom: 0 !important;
+}
+
+/*Posicion de elementos*/
+.pos-absolute {
+    position: absolute !important;
+}
+
+.pos-fixed {
+    position: fixed !important;
+}
+
+.pos-relative {
+    position: relative !important;
+}
+
+/*Divisores*/
+.regular-divider .elementor-divider {
+    padding-top: 1.5vh !important;
+    padding-bottom: 1.5vh !important;
+}
+
+.regular-divider .elementor-divider-separator {
+    border-color: #ffffff !important;
+}
+
+/*NAVBAR*/
+/*General*/
+#mh-nb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mh-nb>.elementor-container {
+    width: 100%;
+}
+
+.hamburguer-menu .elementor-menu-toggle {
+    padding: 0 1em 0 0 !important;
+    background-color: transparent !important;
+}
+
+.navbar-links span:hover,
+.navbar-links a:hover {
+    text-decoration: none !important;
+}
+
+.navbar-spacer .elementor-spacer-inner {
+    height: 2.58vw !important;
+}
+
+.navbar-spacer-bottom .elementor-spacer-inner {
+    height: 1.66vw !important;
+}
+
+/*Agency*/
+
+/*SECCION HOME-WHAT WE DO*/
+/*Boton sin padding izquierdo*/
+#wwd-article-image img {
+    width: 100% !important;
+}
+
+.no-left-padding-button a {
+    padding-left: 0 !important;
+}
+
+/*Alto de barras del overlay y transicion*/
+.slideshare-bars-section>.elementor-container {
+    height: 100% !important;
+}
+
+.slideshare-bars {
+    transition: background-color 0.3s linear;
+}
+
+/*Color de barras del overlay*/
+.bar-color-0 {
+    background-color: #4c4084cc;
+}
+
+.bar-color-1 {
+    background-color: #64ccc9cc;
+}
+
+.bar-color-2 {
+    background-color: #e56a54cc;
+}
+
+.bar-color-3 {
+    background-color: #f0b323cc;
+}
+
+.bar-color-4 {
+    background-color: #23f023cc;
+}
+
+/*Altos de barra deslizante del overlay*/
+.moving-bar {
+    height: 6%;
+    transition: height 0.3s ease-in-out;
+}
+
+.moving-bar-down {
+    height: 100%;
+}
+
+/*Seccion de imagen seleccionable*/
+.wwd-clickable-image {
+    top: 6%;
+    height: 94%;
+    transition: 0.2s ease-in-out;
+}
+
+.wwd-clickable-image-down {
+    top: 100%;
+    height: 0%;
+}
+
+/*Color y ancho de barra del boton 'inventemos...' y efecto hover*/
+.button-inventemos-0 span {
+    background-image: linear-gradient(180deg, transparent 65%, #4c4084 0);
+}
+
+.what-we-do-button-inventemos {
+    position: absolute;
+    bottom: 1em;
+}
+
+.what-we-do-button-inventemos span {
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    text-decoration: none;
+    transition: background-size .4s ease;
+}
+
+.what-we-do-button-inventemos a:hover span {
+    background-size: 100% 100%;
+}
+
+
+/*---*/
+
+/*SECCION HOME-CLIENTS*/
+/*Hover en botones*/
+.people-divider .elementor-divider {
+    padding-top: 0 !important;
+    padding-bottom: 1vh !important;
+}
+
+.selected-client {
+    cursor: pointer;
+    user-select: none;
+}
+
+.selected-client h4,
+.selected-client i {
+    transition: 0.3s;
+}
+
+.selected-client:hover h4 {
+    color: #ffffff !important;
+}
+
+.selected-client:hover .elementor-icon {
+    background-color: #ffffff !important;
+}
+
+.hovered h4 {
+    color: #ffffff !important;
+}
+
+.hovered .elementor-icon {
+    background-color: #ffffff !important;
+}
+
+/*Alto en espaciador superior*/
+#text-spacer {
+    height: 7vw;
+}
+
+/*Marco en seccion derecha*/
+#clients-frame {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0vw 0vw 15vh 2vw;
+}
+
+/*Parallax en Hover*/
+#clients-section .elementor-background-slideshow__slide__image {
+    background-size: 120%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    transition: background-position 0.5s ease;
+}
+
+/*---*/
+
+/*SECCION HOME-IMPACT*/
+#top-divider .elementor-divider {
+    padding-top: 0 !important;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+/*---*/
+
+
+/*SECCION HOME-SCOPE*/
+#country-top-divider .elementor-divider {
+    padding-top: 0.25vh !important;
+    padding-bottom: 0.5vh !important;
+}
+
+.country-divider .elementor-divider {
+    padding-top: 0vh !important;
+    padding-bottom: 0.5vh !important;
+}
+
+.total-right-button .elementor-button-wrapper {
+    float: right;
+}
+
+#scope-type-buttons-section {
+    position: relative;
+    /* top: 67vh; */
+}
+
+.total-right-button a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#alianzas .elementor-button-wrapper,
+#proyectos .elementor-button-wrapper {
+    padding-right: 15px !important;
+}
+
+#proyectos span {
+    background-image: linear-gradient(180deg, transparent 65%, #64ccc9 0);
+}
+
+#estudiantes span {
+    background-image: linear-gradient(180deg, transparent 65%, #e56a54 0);
+}
+
+#alianzas span {
+    background-image: linear-gradient(180deg, transparent 65%, #f0b323 0);
+}
+
+.button-scope a {
+    background-color: #F7F7F700 !important;
+}
+
+.button-scope span {
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    text-decoration: none;
+    transition: background-size .4s ease;
+}
+
+.button-scope a:hover span {
+    background-size: 100% 100%;
+}
+
+/*ABOUT*/
+/*SECCION ABOUT-EXPERIENCE*/
+.button-inventemos span {
+    background-image: linear-gradient(180deg, transparent 65%, #4c4084 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    text-decoration: none;
+    transition: background-size .4s ease;
+}
+
+.button-inventemos a:hover span {
+    background-size: 100% 100%;
+}
+
+.bar-chart-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 70vh;
+}
+
+/*SECCION METHOD*/
+#method-image .elementor-column-wrap {
+    transition: background-position 1s ease;
+}
+
+/*SECCION TEAM*/
+.team-img-bottom-margin {
+    margin-bottom: 0.7em !important;
+}
+
+/*SECCION MANIFESTO*/
+#manifesto-image {
+    transition: background-position 1s ease;
+}
+
+/*AGENCY and ACADEMY*/
+/*SECCION SERVICES*/
+#services-image {
+    transition: background-position 1s ease;
+}
+
+/*SECCION PENSUM*/
+#pensum-image {
+    transition: background-position 1s ease;
+}
+
+/*Overlay abajo de imagen principal*/
+.image-bottom-overlay {
+    bottom: 0;
+}
+
+/*Single Work*/
+.top-divider {
+    padding-top: 1em;
+    border-top: solid 0.2em #4c4084;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 1200px) {
+
+    /*NavBar*/
+    .navbar-spacer .elementor-spacer-inner {
+        height: 31px !important;
+    }
+
+    .navbar-spacer-bottom .elementor-spacer-inner {
+        height: 20px !important;
+    }
+}

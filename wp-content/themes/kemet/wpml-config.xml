@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>
+		<key name="kemet-settings">
+            <key name="header-main-rt-section-html"/>
+            <key name="header-main-menu-label"/>
+            <key name="top-section-1-html"/>
+            <key name="top-section-2-html"/>
+            <key name="footer-copyright-section-1-part"/>
+            <key name="footer-copyright-section-2-part"/>
+		</key>
+	</admin-texts>
+</wpml-config>

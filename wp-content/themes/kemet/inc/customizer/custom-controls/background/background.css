@@ -1,0 +1,66 @@
+.customize-control-kmt-background {
+  position: relative;
+}
+.customize-control-kmt-background .wp-picker-container input[type="text"].wp-color-picker {
+  max-width: 65px !important;
+}
+
+.customize-control-kmt-background .screen-reader-text {
+  top: initial;
+}
+
+.customize-control-kmt-background .background-attachment h4,
+.customize-control-kmt-background .background-color h4,
+.customize-control-kmt-background .background-position h4,
+.customize-control-kmt-background .background-repeat h4,
+.customize-control-kmt-background .background-size h4 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.customize-control-kmt-background .wp-picker-container .wp-color-result.button {
+  min-height: 24px;
+}
+
+.customize-control-kmt-background .background-repeat {
+  margin: 15px 0 8px 0;
+}
+
+.customize-control-kmt-background .background-attachment .buttonset,
+.customize-control-kmt-background .background-size .buttonset {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customize-control-kmt-background .background-attachment .buttonset .switch-label,
+.customize-control-kmt-background .background-size .buttonset .switch-label {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #555;
+  padding: 4px;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.customize-control-kmt-background .background-attachment .buttonset .switch-input:checked + .switch-label,
+.customize-control-kmt-background .background-size .buttonset .switch-input:checked + .switch-label {
+  background-color: #298cbe;
+  color: #fff;
+}
+
+.customize-control-kmt-background .more-settings {
+  margin-top: 12px;
+  display: block;
+  padding: 5px 0 5px 0;
+  float: right;
+}
+.wp-core-ui .button-group.button-small .button, .wp-core-ui .button.button-small{
+    margin-left: 6px;
+    min-height: 29px;
+    line-height: 1.18181818;
+}
+.wp-customizer .wp-picker-input-wrap .button.wp-picker-default, .wp-picker-input-wrap .button.wp-picker-default{
+    line-height: 1.54545455;
+    min-height: 29px;
+}

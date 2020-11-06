@@ -1,0 +1,211 @@
+.customize-control-kmt-responsive-slider .wrapper {
+  position: relative;
+  display: flex;
+}
+
+.customize-control-kmt-responsive-slider .input-field-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"] {
+  -webkit-appearance: none;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 5px;
+  padding: 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]:hover,
+.customize-control-kmt-responsive-slider input[type="range"]:focus {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.customize-control-kmt-responsive-slider
+  input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #3498d9;
+}
+
+.customize-control-kmt-responsive-slider
+  input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: #3498d9;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: #3498d9;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #3498d9;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]::-moz-range-track {
+  border: inherit;
+  background: transparent;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]::-ms-track {
+  border: inherit;
+  color: transparent;
+  background: transparent;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]::-ms-fill-lower,
+.customize-control-kmt-responsive-slider input[type="range"]::-ms-fill-upper {
+  background: transparent;
+}
+
+.customize-control-kmt-responsive-slider input[type="range"]::-ms-tooltip {
+  display: none;
+}
+
+.customize-control-kmt-responsive-slider .kemet_range_value {
+  font-size: 14px;
+  padding: 0 0 0 5px;
+  font-weight: 400;
+  position: relative;
+}
+.customize-control-kmt-responsive-slider .kmt-responsive-slider-reset {
+  color: rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: 5px;
+}
+
+.customize-control-kmt-responsive-slider .kmt-responsive-slider-reset span {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.customize-control-kmt-responsive-slider .kmt-responsive-slider-reset:hover,
+.customize-control-kmt-responsive-slider .kmt-responsive-slider-reset:focus {
+  color: red;
+}
+.kemet_range_value input.kmt-responsive-range-value-input {
+  width: 50px;
+  height: 22px;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.kemet_range_value .kmt-range-unit {
+  margin-left: 5px;
+}
+
+.customize-control-kmt-responsive-slider .input-field-wrapper {
+  display: none;
+  width: 100%;
+}
+
+.customize-control-kmt-responsive-slider .input-field-wrapper.active {
+  display: flex;
+}
+
+/**
+ * Responsive Icons
+ */
+.customize-control-title {
+  display: inline-block;
+}
+
+.customize-control-kmt-responsive-slider .kmt-slider-responsive-units {
+  position: absolute;
+  transform: translateY(120%);
+  font-size: 11px;
+  text-transform: uppercase;
+  top: -50px;
+  right: 1px;
+}
+
+.customize-control-kmt-responsive-slider
+  .kmt-slider-responsive-units
+  li.single-unit {
+  display: inline-block;
+  margin-left: 6px;
+  width: 16px;
+  text-align: center;
+  user-select: none;
+  opacity: 0.7;
+}
+
+.customize-control-kmt-responsive-slider
+  .kmt-slider-responsive-units
+  li.single-unit.active {
+  font-weight: bold;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.description.customize-control-description {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.kmt-responsive-control-btns {
+  line-height: 1;
+  padding-left: 5px;
+  margin-bottom: 7px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.kmt-responsive-control-btns > li {
+  margin-bottom: 0;
+  display: none;
+  overflow: hidden;
+}
+
+.kmt-responsive-control-btns > li.active {
+  display: inline-block;
+}
+
+.kmt-responsive-control-btns button[type="button"] {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 20px;
+  background-color: #bbbbbb;
+  width: 24px;
+  height: 24px;
+}
+
+.kmt-responsive-control-btns button[type="button"] > i {
+  width: 15px;
+  height: 13px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 17px;
+}

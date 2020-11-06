@@ -1,0 +1,17 @@
+.customize-control-kmt-color .wp-color-result span {
+	background: #f7f7f7;
+}
+.customize-control-kmt-color .wp-color-result span.color-alpha {
+	height:26px !important;
+}
+.customize-control-kmt-color .wp-color-result.button {
+	min-height: 24px;
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+	    border: 1px solid #d0d0d0;
+}
+
+.customize-control-kmt-color .wp-picker-container input[type="text"].wp-color-picker {
+	width: 65px !important;
+}

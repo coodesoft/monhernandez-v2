@@ -1,0 +1,152 @@
+/*Iconos*/
+/*42pt*/
+.icon-size-42 .elementor-icon {
+    width: 2.58vw;
+}
+
+.icon-size-42 .elementor-icon,
+.icon-size-42 .elementor-widget-container {
+    height: 2.58vw;
+}
+
+/*52pt*/
+.icon-size-52 .elementor-icon {
+    width: 3.75vw;
+}
+
+.icon-size-52 .elementor-icon,
+.icon-size-52 .elementor-widget-container {
+    height: 3.75vw;
+}
+
+/*Icono marca*/
+.brand-icon-size-42 .elementor-icon {
+    width: 5.16vw;
+}
+
+.brand-icon-size-42 .elementor-icon,
+.brand-icon-size-42 .elementor-widget-container {
+    height: 2.58vw;
+}
+
+/**/
+
+.icon-switch .elementor-icon i,
+.icon-top-switch .elementor-icon i,
+.icon-bottom-switch .elementor-icon i {
+    display: none;
+}
+
+.icon-switch .elementor-icon,
+.icon-top-switch .elementor-icon,
+.icon-bottom-switch .elementor-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-switch .elementor-icon {
+    background-position: center center;
+}
+
+.icon-top-switch .elementor-icon i {
+    background-position: center top;
+}
+
+.icon-bottom-switch .elementor-icon {
+    background-position: center bottom;
+}
+
+.brand-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/mon-logo.png");
+}
+
+.product-1-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-01.svg");
+}
+
+.product-2-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-02.svg");
+}
+
+.product-3-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-03.svg");
+}
+
+.product-4-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-04.svg");
+}
+
+.product-5-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-05.svg");
+}
+
+.product-6-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-06.svg");
+}
+
+.product-7-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-07.svg");
+}
+
+.product-8-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-08.svg");
+}
+
+.product-9-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-09.svg");
+}
+
+.product-10-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-10.svg");
+}
+
+.product-11-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-11.svg");
+}
+
+.product-12-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-12.svg");
+}
+
+.product-13-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-13.svg");
+}
+
+.product-14-icon .elementor-icon {
+    background-image: url("/wp-content/uploads/2020/10/Icone-14.svg");
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 1200px) {
+
+    /*Iconos*/
+    /*42pt*/
+    .icon-size-42 .elementor-icon {
+        width: 31px;
+    }
+
+    .icon-size-42 .elementor-icon,
+    .icon-size-42 .elementor-widget-container {
+        height: 31px;
+    }
+
+    /*52pt*/
+    .icon-size-52 .elementor-icon {
+        width: 45px;
+    }
+
+    .icon-size-52 .elementor-icon,
+    .icon-size-52 .elementor-widget-container {
+        height: 45px;
+    }
+
+    /*Icono marca*/
+    .brand-icon-size-42 .elementor-icon {
+        width: 62px;
+    }
+
+    .brand-icon-size-42 .elementor-icon,
+    .brand-icon-size-42 .elementor-widget-container {
+        height: 31px;
+    }
+}

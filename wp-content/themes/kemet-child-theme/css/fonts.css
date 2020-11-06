@@ -1,0 +1,278 @@
+/*Fuentes*/
+/*Alto de linea*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+:not(i) {
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 1em !important;
+    letter-spacing: -.05em !important;
+}
+
+/*Tamaño de fuentes*/
+/*Valores expresados en los titulos en unidades pt,
+*convertidos a vw.
+*/
+/* .font-size-14 * {
+    font-size: 1vw !important;
+}
+*/
+.font-size-15,
+.font-size-15 * {
+    font-size: 1.12vw !important;
+}
+
+/*.font-size-17 * {
+    font-size: 1.33vw !important;
+} */
+
+.font-size-18,
+.font-size-18 * {
+    font-size: 1.3vw !important;
+}
+
+.font-size-19,
+.font-size-19 * {
+    font-size: 1.41vw !important;
+}
+
+.font-size-20,
+.font-size-20 * {
+    font-size: 1.5vw !important;
+}
+
+.font-size-21,
+.font-size-21 * {
+    font-size: 1.52vw !important;
+}
+
+.font-size-23,
+.font-size-23 * {
+    font-size: 1.66vw !important;
+}
+
+.font-size-24,
+.font-size-24 * {
+    font-size: 1.68vw !important;
+}
+
+/*.font-size-25 * {
+    font-size: 2.22vw !important;
+}
+*/
+.font-size-26,
+.font-size-26 * {
+    font-size: 1.91vw !important;
+}
+
+.font-size-28,
+.font-size-28 * {
+    font-size: 2vw !important;
+}
+
+.font-size-30,
+.font-size-30 * {
+    font-size: 2.16vw !important;
+}
+
+.font-size-32,
+.font-size-32 * {
+    font-size: 2.31vw !important;
+}
+
+.font-size-34,
+.font-size-34 * {
+    font-size: 2.47vw !important;
+}
+
+/*.font-size-36 * {
+    font-size: 3.45vw !important;
+} */
+
+.font-size-42,
+.font-size-42 * {
+    font-size: 2.58vw !important;
+}
+
+.font-size-48,
+.font-size-48 * {
+    font-size: 3.75vw !important;
+}
+
+/* .font-size-50 * {
+    font-size: 5vw !important;
+}
+*/
+.font-size-52,
+.font-size-52 * {
+    font-size: 3.75vw !important;
+}
+
+/* .font-size-54 * {
+    font-size: 5.45vw !important;
+} */
+
+/*Peso de fuentes*/
+.font-weight-light,
+.font-weight-light * {
+    font-weight: 200 !important;
+}
+
+.font-weight-normal,
+.font-weight-normal * {
+    font-weight: 400 !important;
+}
+
+.font-weight-bold,
+.font-weight-bold * {
+    font-weight: bold !important;
+}
+
+.font-weight-bolder,
+.font-weight-bolder * {
+    font-weight: bolder !important;
+}
+
+/*Colores Fuentes*/
+.font-color-grey,
+.font-color-grey * {
+    color: #8d8d8d !important;
+}
+
+.font-color-white,
+.font-color-white * {
+    color: #ffffff !important;
+}
+
+.font-color-purple,
+.font-color-purple * {
+    color: #4c4084 !important;
+}
+
+.font-color-cyan,
+.font-color-cyan * {
+    color: #64ccc9 !important;
+}
+
+.font-color-red,
+.font-color-red * {
+    color: #e56a54 !important;
+}
+
+.font-color-yellow,
+.font-color-yellow * {
+    color: #f0b323 !important;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 1200px) {
+
+    /*Tamaño de fuentes*/
+    /*Valores expresados en los titulos en unidades pt,
+    *convertidos a px.
+    */
+    /* .font-size-14 * {
+        font-size: 10.66px !important;
+    }
+*/
+    .font-size-15,
+    .font-size-15 * {
+        font-size: 13.5px !important;
+    }
+
+    /*.font-size-17 * {
+        font-size: 14.66px !important;
+    } */
+
+    .font-size-18,
+    .font-size-18 * {
+        font-size: 16px !important;
+    }
+
+    .font-size-19,
+    .font-size-19 * {
+        font-size: 17px !important;
+    }
+
+    .font-size-20,
+    .font-size-20 * {
+        font-size: 18px !important;
+    }
+
+    .font-size-21,
+    .font-size-21 * {
+        font-size: 18.25px !important;
+    }
+
+
+    .font-size-23,
+    .font-size-23 * {
+        font-size: 20px !important;
+    }
+
+    .font-size-24,
+    .font-size-24 * {
+        font-size: 20.25px !important;
+    }
+
+    /*.font-size-25 * {
+        font-size: 17px !important;
+    }
+    */
+    .font-size-26,
+    .font-size-26 * {
+        font-size: 23px !important;
+    }
+
+    .font-size-28,
+    .font-size-28 * {
+        font-size: 24px !important;
+    }
+
+    .font-size-30,
+    .font-size-30 * {
+        font-size: 26px !important;
+    }
+
+    .font-size-32,
+    .font-size-32 * {
+        font-size: 27.75px !important;
+    }
+
+    .font-size-34,
+    .font-size-34 * {
+        font-size: 29.75px !important;
+    }
+
+    /*.font-size-36 * {
+        font-size: 28px !important;
+    } */
+
+    .font-size-42,
+    .font-size-42 * {
+        font-size: 31px !important;
+    }
+
+    .font-size-48,
+    .font-size-48 * {
+        font-size: 45px !important;
+    }
+
+    /* .font-size-50 * {
+        font-size: 42px !important;
+    }
+    */
+    .font-size-52,
+    .font-size-52 * {
+        font-size: 45px !important;
+    }
+
+    /* .font-size-54 * {
+        font-size: 46px !important;
+    } */
+
+}
